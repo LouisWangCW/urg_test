@@ -21,6 +21,7 @@ include_directories(
 
 add_executable(${PROJECT_NAME}
   ./src/urg_test.cpp
+  ./src/urg_test.hpp
 )
 target_link_libraries(${PROJECT_NAME}
    ${catkin_LIBRARIES}
